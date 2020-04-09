@@ -1,4 +1,4 @@
-FROM php:7.0-apache
+FROM centos/httpd-24-centos7
 MAINTAINER Tomás Gübeli (tgubeli@redhat.com)
 COPY ./src /var/www/html/
-EXPOSE 80
+EXPOSE 8080
